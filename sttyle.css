@@ -1,3 +1,48 @@
-p{ 
-  color:red ;
+/* this file contain code from google soruce*/
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.5em;
+  color: #5A67D8;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #5A67D8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #4C51BF;
+}
+#contentSection {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  color: #5A67D8;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 1.1em;
+  color: #555;
+}
+#contentSection[style*="display: none"] {
+  display: none;
 }
